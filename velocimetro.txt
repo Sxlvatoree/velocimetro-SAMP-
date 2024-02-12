@@ -1,0 +1,274 @@
+// Глобальные текстдравы
+new Text:speed_TD[29];
+
+speed_TD[0] = TextDrawCreate(520.1669, 371.6667, "particle:lamp_shad_64"); // пусто
+TextDrawTextSize(speed_TD[0], 76.0000, 33.0000);
+TextDrawAlignment(speed_TD[0], 1);
+TextDrawColor(speed_TD[0], 673720351);
+TextDrawBackgroundColor(speed_TD[0], 255);
+TextDrawFont(speed_TD[0], 4);
+TextDrawSetProportional(speed_TD[0], 0);
+TextDrawSetShadow(speed_TD[0], 0);
+
+speed_TD[1] = TextDrawCreate(578.8068, 349.2500, ""); // пусто
+TextDrawTextSize(speed_TD[1], 69.0000, 51.0000);
+TextDrawAlignment(speed_TD[1], 1);
+TextDrawColor(speed_TD[1], -40817153);
+TextDrawFont(speed_TD[1], 5);
+TextDrawSetProportional(speed_TD[1], 0);
+TextDrawSetShadow(speed_TD[1], 0);
+TextDrawSetPreviewModel(speed_TD[1], 2153);
+TextDrawSetPreviewRot(speed_TD[1], 0.0000, -15.0000, 90.0000, 1.0000);
+
+speed_TD[2] = TextDrawCreate(598.5870, 386.5832, "ld_beat:chit"); // пусто
+TextDrawTextSize(speed_TD[2], 20.0000, 20.0000);
+TextDrawAlignment(speed_TD[2], 1);
+TextDrawColor(speed_TD[2], -40817153);
+TextDrawBackgroundColor(speed_TD[2], 255);
+TextDrawFont(speed_TD[2], 4);
+TextDrawSetProportional(speed_TD[2], 0);
+TextDrawSetShadow(speed_TD[2], 0);
+
+speed_TD[3] = TextDrawCreate(560.0659, 345.7499, ""); // пусто
+TextDrawTextSize(speed_TD[3], 67.0000, 55.0000);
+TextDrawAlignment(speed_TD[3], 1);
+TextDrawColor(speed_TD[3], -40817153);
+TextDrawFont(speed_TD[3], 5);
+TextDrawSetProportional(speed_TD[3], 0);
+TextDrawSetShadow(speed_TD[3], 0);
+TextDrawSetPreviewModel(speed_TD[3], 2153);
+TextDrawSetPreviewRot(speed_TD[3], 0.0000, -15.0000, 90.0000, 1.0000);
+
+speed_TD[4] = TextDrawCreate(584.4331, 392.4166, "LD_SPAC:white"); // пусто
+TextDrawTextSize(speed_TD[4], 24.0000, 11.0000);
+TextDrawAlignment(speed_TD[4], 1);
+TextDrawColor(speed_TD[4], -40817153);
+TextDrawBackgroundColor(speed_TD[4], 255);
+TextDrawFont(speed_TD[4], 4);
+TextDrawSetProportional(speed_TD[4], 0);
+TextDrawSetShadow(speed_TD[4], 0);
+
+speed_TD[5] = TextDrawCreate(576.0000, 387.0000, "ld_beat:chit"); // пусто
+TextDrawTextSize(speed_TD[5], 20.0000, 20.0000);
+TextDrawAlignment(speed_TD[5], 1);
+TextDrawColor(speed_TD[5], -40817153);
+TextDrawBackgroundColor(speed_TD[5], 255);
+TextDrawFont(speed_TD[5], 4);
+TextDrawSetProportional(speed_TD[5], 0);
+TextDrawSetShadow(speed_TD[5], 0);
+
+speed_TD[6] = TextDrawCreate(600.3627, 346.3332, "LD_SPAC:white"); // пусто
+TextDrawTextSize(speed_TD[6], 24.0000, 11.0000);
+TextDrawAlignment(speed_TD[6], 1);
+TextDrawColor(speed_TD[6], -40817153);
+TextDrawBackgroundColor(speed_TD[6], 255);
+TextDrawFont(speed_TD[6], 4);
+TextDrawSetProportional(speed_TD[6], 0);
+TextDrawSetShadow(speed_TD[6], 0);
+
+speed_TD[7] = TextDrawCreate(590.6226, 342.8333, "ld_beat:chit"); // пусто
+TextDrawTextSize(speed_TD[7], 20.0000, 20.0000);
+TextDrawAlignment(speed_TD[7], 1);
+TextDrawColor(speed_TD[7], -40817153);
+TextDrawBackgroundColor(speed_TD[7], 255);
+TextDrawFont(speed_TD[7], 4);
+TextDrawSetProportional(speed_TD[7], 0);
+TextDrawSetShadow(speed_TD[7], 0);
+
+speed_TD[8] = TextDrawCreate(597.5516, 353.3333, "LD_SPAC:white"); // пусто
+TextDrawTextSize(speed_TD[8], 17.0000, 44.0000);
+TextDrawAlignment(speed_TD[8], 1);
+TextDrawColor(speed_TD[8], -40817153);
+TextDrawBackgroundColor(speed_TD[8], 255);
+TextDrawFont(speed_TD[8], 4);
+TextDrawSetProportional(speed_TD[8], 0);
+TextDrawSetShadow(speed_TD[8], 0);
+
+speed_TD[9] = TextDrawCreate(614.5171, 342.8333, "ld_beat:chit"); // пусто
+TextDrawTextSize(speed_TD[9], 20.0000, 20.0000);
+TextDrawAlignment(speed_TD[9], 1);
+TextDrawColor(speed_TD[9], -40817153);
+TextDrawBackgroundColor(speed_TD[9], 255);
+TextDrawFont(speed_TD[9], 4);
+TextDrawSetProportional(speed_TD[9], 0);
+TextDrawSetShadow(speed_TD[9], 0);
+
+speed_TD[10] = TextDrawCreate(625.1155, 413.0834, "particle:lamp_shad_64"); // пусто
+TextDrawTextSize(speed_TD[10], -131.0000, -67.0000);
+TextDrawAlignment(speed_TD[10], 1);
+TextDrawColor(speed_TD[10], 673720436);
+TextDrawBackgroundColor(speed_TD[10], 255);
+TextDrawFont(speed_TD[10], 4);
+TextDrawSetProportional(speed_TD[10], 0);
+TextDrawSetShadow(speed_TD[10], 0);
+
+speed_TD[11] = TextDrawCreate(570.0070, 366.1667, "ld_beat:chit"); // пусто
+TextDrawTextSize(speed_TD[11], 15.0000, 15.0000);
+TextDrawAlignment(speed_TD[11], 1);
+TextDrawColor(speed_TD[11], 336860415);
+TextDrawBackgroundColor(speed_TD[11], 255);
+TextDrawFont(speed_TD[11], 4);
+TextDrawSetProportional(speed_TD[11], 0);
+TextDrawSetShadow(speed_TD[11], 0);
+
+speed_TD[12] = TextDrawCreate(575.0589, 374.3332, ""); // пусто
+TextDrawTextSize(speed_TD[12], 10.0000, 9.0000);
+TextDrawAlignment(speed_TD[12], 1);
+TextDrawColor(speed_TD[12], 336860415);
+TextDrawBackgroundColor(speed_TD[12], 336860160);
+TextDrawFont(speed_TD[12], 5);
+TextDrawSetProportional(speed_TD[12], 0);
+TextDrawSetShadow(speed_TD[12], 0);
+TextDrawSetPreviewModel(speed_TD[12], 2153);
+TextDrawSetPreviewRot(speed_TD[12], 0.0000, -15.0000, 90.0000, 1.0000);
+
+speed_TD[13] = TextDrawCreate(568.1330, 373.1668, "ld_beat:chit"); // пусто
+TextDrawTextSize(speed_TD[13], 15.0000, 15.0000);
+TextDrawAlignment(speed_TD[13], 1);
+TextDrawColor(speed_TD[13], 336860415);
+TextDrawBackgroundColor(speed_TD[13], 255);
+TextDrawFont(speed_TD[13], 4);
+TextDrawSetProportional(speed_TD[13], 0);
+TextDrawSetShadow(speed_TD[13], 0);
+
+speed_TD[14] = TextDrawCreate(517.4339, 368.5000, "LD_SPAC:white"); // пусто
+TextDrawTextSize(speed_TD[14], 59.0000, 17.5000);
+TextDrawAlignment(speed_TD[14], 1);
+TextDrawColor(speed_TD[14], 336860415);
+TextDrawBackgroundColor(speed_TD[14], 255);
+TextDrawFont(speed_TD[14], 4);
+TextDrawSetProportional(speed_TD[14], 0);
+TextDrawSetShadow(speed_TD[14], 0);
+
+speed_TD[15] = TextDrawCreate(511.4421, 366.1667, "ld_beat:chit"); // пусто
+TextDrawTextSize(speed_TD[15], 15.0000, 15.0000);
+TextDrawAlignment(speed_TD[15], 1);
+TextDrawColor(speed_TD[15], 336860415);
+TextDrawBackgroundColor(speed_TD[15], 255);
+TextDrawFont(speed_TD[15], 4);
+TextDrawSetProportional(speed_TD[15], 0);
+TextDrawSetShadow(speed_TD[15], 0);
+
+speed_TD[16] = TextDrawCreate(519.3051, 380.1664, ""); // пусто
+TextDrawTextSize(speed_TD[16], -10.0000, -9.0000);
+TextDrawAlignment(speed_TD[16], 1);
+TextDrawColor(speed_TD[16], 336860415);
+TextDrawBackgroundColor(speed_TD[16], 336860160);
+TextDrawFont(speed_TD[16], 5);
+TextDrawSetProportional(speed_TD[16], 0);
+TextDrawSetShadow(speed_TD[16], 0);
+TextDrawSetPreviewModel(speed_TD[16], 2153);
+TextDrawSetPreviewRot(speed_TD[16], 0.0000, -15.0000, 90.0000, 1.0000);
+
+speed_TD[17] = TextDrawCreate(509.0996, 373.1667, "ld_beat:chit"); // пусто
+TextDrawTextSize(speed_TD[17], 15.0000, 15.0000);
+TextDrawAlignment(speed_TD[17], 1);
+TextDrawColor(speed_TD[17], 336860415);
+TextDrawBackgroundColor(speed_TD[17], 255);
+TextDrawFont(speed_TD[17], 4);
+TextDrawSetProportional(speed_TD[17], 0);
+TextDrawSetShadow(speed_TD[17], 0);
+
+speed_TD[18] = TextDrawCreate(518.0017, 379.0000, "LD_SPAC:white"); // пусто
+TextDrawTextSize(speed_TD[18], 57.0000, 3.0000);
+TextDrawAlignment(speed_TD[18], 1);
+TextDrawColor(speed_TD[18], -1166921985);
+TextDrawBackgroundColor(speed_TD[18], 255);
+TextDrawFont(speed_TD[18], 4);
+TextDrawSetProportional(speed_TD[18], 0);
+TextDrawSetShadow(speed_TD[18], 0);
+
+speed_TD[19] = TextDrawCreate(518.0017, 379.0000, "LD_SPAC:white"); // пусто
+TextDrawTextSize(speed_TD[19], 31.0000, 3.0000);
+TextDrawAlignment(speed_TD[19], 1);
+TextDrawColor(speed_TD[19], -124373249);
+TextDrawBackgroundColor(speed_TD[19], 255);
+TextDrawFont(speed_TD[19], 4);
+TextDrawSetProportional(speed_TD[19], 0);
+TextDrawSetShadow(speed_TD[19], 0);
+
+speed_TD[20] = TextDrawCreate(535.9739, 367.9167, "FILL_146"); // пусто
+TextDrawLetterSize(speed_TD[20], 0.1151, 1.0808);
+TextDrawAlignment(speed_TD[20], 1);
+TextDrawColor(speed_TD[20], -1);
+TextDrawBackgroundColor(speed_TD[20], 255);
+TextDrawFont(speed_TD[20], 2);
+TextDrawSetProportional(speed_TD[20], 1);
+TextDrawSetShadow(speed_TD[20], 0);
+
+speed_TD[21] = TextDrawCreate(516.0000, 351.0000, "LOCK"); // пусто
+TextDrawLetterSize(speed_TD[21], 0.1802, 1.1916);
+TextDrawAlignment(speed_TD[21], 1);
+TextDrawColor(speed_TD[21], -459199745);
+TextDrawBackgroundColor(speed_TD[21], 255);
+TextDrawFont(speed_TD[21], 1);
+TextDrawSetProportional(speed_TD[21], 1);
+TextDrawSetShadow(speed_TD[21], 0);
+
+speed_TD[22] = TextDrawCreate(538.0000, 351.0000, "ENGINE"); // пусто
+TextDrawLetterSize(speed_TD[22], 0.1802, 1.1916);
+TextDrawAlignment(speed_TD[22], 1);
+TextDrawColor(speed_TD[22], -1);
+TextDrawBackgroundColor(speed_TD[22], 255);
+TextDrawFont(speed_TD[22], 1);
+TextDrawSetProportional(speed_TD[22], 1);
+TextDrawSetShadow(speed_TD[22], 0);
+
+speed_TD[23] = TextDrawCreate(566.0000, 351.0000, "LIGHT"); // пусто
+TextDrawLetterSize(speed_TD[23], 0.1802, 1.1916);
+TextDrawAlignment(speed_TD[23], 1);
+TextDrawColor(speed_TD[23], -1);
+TextDrawBackgroundColor(speed_TD[23], 255);
+TextDrawFont(speed_TD[23], 1);
+TextDrawSetProportional(speed_TD[23], 1);
+TextDrawSetShadow(speed_TD[23], 0);
+
+speed_TD[24] = TextDrawCreate(576.0000, 386.5000, "ld_beat:chit"); // пусто
+TextDrawTextSize(speed_TD[24], 20.0000, 20.5000);
+TextDrawAlignment(speed_TD[24], 1);
+TextDrawColor(speed_TD[24], 336860415);
+TextDrawBackgroundColor(speed_TD[24], 255);
+TextDrawFont(speed_TD[24], 4);
+TextDrawSetProportional(speed_TD[24], 0);
+TextDrawSetShadow(speed_TD[24], 0);
+
+speed_TD[25] = TextDrawCreate(589.0000, 391.0000, "KM/H"); // пусто
+TextDrawLetterSize(speed_TD[25], 0.1287, 1.1566);
+TextDrawAlignment(speed_TD[25], 1);
+TextDrawColor(speed_TD[25], -1);
+TextDrawBackgroundColor(speed_TD[25], 255);
+TextDrawFont(speed_TD[25], 2);
+TextDrawSetProportional(speed_TD[25], 1);
+TextDrawSetShadow(speed_TD[25], 0);
+
+speed_TD[26] = TextDrawCreate(598.5870, 386.5832, "ld_beat:chit"); // пусто
+TextDrawTextSize(speed_TD[26], 20.0000, 20.0000);
+TextDrawAlignment(speed_TD[26], 1);
+TextDrawColor(speed_TD[26], 336860415);
+TextDrawBackgroundColor(speed_TD[26], 255);
+TextDrawFont(speed_TD[26], 4);
+TextDrawSetProportional(speed_TD[26], 0);
+TextDrawSetShadow(speed_TD[26], 0);
+
+speed_TD[27] = TextDrawCreate(585.4685, 390.0833, "ld_spac:white"); // пусто
+TextDrawTextSize(speed_TD[27], 23.0000, 13.5000);
+TextDrawAlignment(speed_TD[27], 1);
+TextDrawColor(speed_TD[27], 336860415);
+TextDrawBackgroundColor(speed_TD[27], 255);
+TextDrawFont(speed_TD[27], 4);
+TextDrawSetProportional(speed_TD[27], 0);
+TextDrawSetShadow(speed_TD[27], 0);
+
+speed_TD[28] = TextDrawCreate(597.0000, 364.0000, "255"); // пусто
+TextDrawLetterSize(speed_TD[28], 0.2734, 1.5008);
+TextDrawTextSize(speed_TD[28], -22.0000, 0.0000);
+TextDrawAlignment(speed_TD[28], 1);
+TextDrawColor(speed_TD[28], -1);
+TextDrawSetOutline(speed_TD[28], 1);
+TextDrawBackgroundColor(speed_TD[28], 134);
+TextDrawFont(speed_TD[28], 3);
+TextDrawSetProportional(speed_TD[28], 1);
+TextDrawSetShadow(speed_TD[28], 0);
+
+
+// Экспортировано 32 текстдравов.
